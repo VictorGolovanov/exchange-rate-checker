@@ -1,2 +1,14 @@
+app/Config.java
+ app.Config
 app/ApplicationStart.java
  app.ApplicationStart
+app/client/ExchangeRateClient.java
+ app.client.ExchangeRateClient
+app/models/ExchangeRate.java
+ app.models.ExchangeRate
+app/DefaultController.java
+ app.DefaultController
+app/models/Gif.java
+ app.models.Gif
+app/client/GifClient.java
+ app.client.GifClient

@@ -1,0 +1,5 @@
+exchangeRateServer: https://openexchangerates.org/api/
+exchangeRateId: b8cfd9c8ec5f42c4906f55fb0df1b825
+giphyServer: https://api.giphy.com/
+giphyId: nppJ8IGXQO4bNbhiCSzvhzAhZrRN18yU
+currency: USD
