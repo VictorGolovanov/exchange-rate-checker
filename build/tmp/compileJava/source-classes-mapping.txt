@@ -1,16 +1,16 @@
+app/GifData.java
+ app.GifData
 app/ExchangeRate.java
  app.ExchangeRate
+app/DefaultController.java
+ app.DefaultController
+app/Gif.java
+ app.Gif
+app/client/ExchangeRateClient.java
+ app.client.ExchangeRateClient
 app/Config.java
  app.Config
 app/ApplicationStart.java
  app.ApplicationStart
-app/client/ExchangeRateClient.java
- app.client.ExchangeRateClient
-app/GifData.java
- app.GifData
 app/client/GifClient.java
  app.client.GifClient
-app/Gif.java
- app.Gif
-app/DefaultController.java
- app.DefaultController

@@ -55,3 +55,13 @@ dependencies {
 test {
     useJUnitPlatform()
 }
+
+task fatJar(type: Jar){
+    manifest{
+        attributes 'Main-Class':'"app.AlfaApplication"'
+    }
+    from{
+        configurations.compile.collect{it.isDirectory() ? it : zipTree(it)}
+    }
+    with jar
+}
