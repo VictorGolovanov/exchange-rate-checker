@@ -57,7 +57,7 @@ public class DefaultController {
         double yesterdayToRub = rub / currencyExchanged;
 
 
-        // query to  gif server.
+        // query to gif server.
         String gifApiKey = config.getGiphyId();
         String gifServer = config.getGiphyServer();
         String tag;
@@ -74,7 +74,7 @@ public class DefaultController {
         uri = URI.create(gifRequest);
 
 
-        String gifID = gifClient.getGif(uri).data.getId();
+        String gifID = gifClient.getGif(uri).getGifData().getId();
 
         // final link to gif
         String gifPath = "https://i.giphy.com/media/" + gifID + "/giphy.gif";
